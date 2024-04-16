@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Higher Rating = Higher Pay?</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.25.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.16.3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.22.2"></script>
+</head>
+<body>
+    <div class="title">
+        <h1>Does Higher Professor Rating <br> Suggest Higher Pay?</h1>
+        <img id="umb-logo" src="/imgs/umb_logo.png">
+    </div>
+    <div class="info">
+        <h3>
+            To answer the question, let's explore some data. <br>
+            Here are the average salaries of professors, both with good and bad reviews, <br>in the six colleges at UMass Boston:
+        </h3>
+    </div>
+
+    <div class="csm">
+        <h2 class="subtitles">College of Science & Mathematics</h2>
+        <div id="csm-graph-good"></div>
+        <div id="csm-graph-bad"></div>        
+    </div>
+
+    <div class="nursing">
+        <h2 class="subtitles">Manning College of Nursing & Health Sciences</h2>
+        <div id="nursing-graph-good"></div>
+        <div id="nursing-graph-bad"></div>
+    </div>
+
+    <div class="management">
+        <h2 class="subtitles">College of Management</h2>
+        <div id="management-graph-good"></div>
+        <div id="management-graph-bad"></div>
+    </div>
+
+    <div class="environment">
+        <h2 class="subtitles">School for the Environment</h2>
+        <div id="environment-graph-good"></div>
+        <div id="environment-graph-bad"></div>
+    </div>
+
+    <div class="education">
+        <h2 class="subtitles">College of Education & Human Development</h2>
+        <div id="education-graph-good"></div>
+        <div id="education-graph-bad"></div>
+    </div>
+
+    <div class="cla">
+        <h2 class="subtitles">College of Liberal Arts</h2>
+        <div id="cla-graph-good"></div>
+        <div id="cla-graph-bad"></div>
+    </div>
+
+    <div class="faculty-vs-coach_link">
+        Click <a href="faculty_vs_coach.html">here</a> to compare the salaries of faculty and coaches.
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
