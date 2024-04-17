@@ -1,8 +1,8 @@
 csmGood = {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json",
-    "height": 300,
+    "height": 500,
     "width": {
-      "step": 80
+      "step": 120
     },
     "config": {
       "view": {
@@ -667,15 +667,15 @@ csmGood = {
     },
     "mark": {
       "type": "bar",
-      "size": 50
+      "size": 70
     }
   }
 
 csmBad = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json",
-  "height": 300,
+  "height": 600,
   "width": {
-    "step": 80
+    "step": 120
   },
   "config": {
     "view": {
@@ -1014,7 +1014,6 @@ csmBad = {
       }
     ]
   },
-  
   "encoding": {
     "x": {
       "field": "DEPARTMENT",
@@ -1053,7 +1052,7 @@ csmBad = {
   },
   "mark": {
     "type": "bar",
-    "size": 50
+    "size": 70
   }
 }
 

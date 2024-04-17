@@ -18,7 +18,7 @@ titles = ["Associate Lecturer", "Associate Professor", "Assoc Lecturer A", "Assi
           "Clinical Associate Lecturer", "Clinical Associate Lecturer A", "Grad Prog Dir/Assoc Professor", "Grad Prog Dir/Professor"]
 
 # Get the annual rate for ratings above 3
-avg_num_ratings = 10
+avg_num_ratings = 1
 print(avg_num_ratings)
 
 rating_above_3 = faculty_df["RATING"] >= 3
@@ -59,12 +59,11 @@ def filter_departments(departments, other_departments):
     return departments[~departments.isin(other_departments)]
 
 management_departments = ["Management Science & Information Systems", "Management", "Accounting & Finance"]
-nursing_departments = ["Gerontology", "Nursing", "Exercise & Health Science", "Urban Public Health"]
+nursing_departments = ["Nursing", "Exercise & Health Science", "Urban Public Health"]
 environment_departments = ["Urban Planning & Community Development", "Urban Public Health"]
-education_departments = ["Counseling & School Psychology", "Curriculum & Instruction", "Leadership in Education", ]
+education_departments = ["Counseling & School Psychology", "Curriculum & Instruction"]
 cla_departments = ["Performing Arts", "English", "Psychology", "Communications", "American Studies", "Classics & Religious Studies",
-                   "Anthropology", "Applied Linguistics", "Latin American & Iberian Studies", "Modern Languages Lit", "Art", 
-                   "Women's Gender Sexuality Studi", "Economics", "Political Science", "Sociology", "Africana Studies", "History",
+                   "Anthropology", "Applied Linguistics", "Latin American & Iberian Studies", "Modern Languages Lit", "Art", "Economics", "Sociology", "Africana Studies", "History",
                    "Philosophy", "Asian Studies"]
 csm_deparments = ["Computer Science", "Engineering", "Physics", "Mathematics", "Biology", "Chemistry"]
 
@@ -102,7 +101,7 @@ filtered_education_departments = filter_departments(education_above_3, education
 # plot_average_annual_rate_by_department(cla_above_3.groupby("DEPARTMENT")["ANNUAL_RATE"].mean())
 # plot_average_annual_rate_by_department(cla_below_3.groupby("DEPARTMENT")["ANNUAL_RATE"].mean())
 
-chart = alt.Chart(management_below_3).mark_bar().encode(
+chart = alt.Chart(cla_below_3).mark_bar().encode(
     x='DEPARTMENT',
     y='mean(ANNUAL_RATE)',
 )
