@@ -1,6 +1,3 @@
-
-
-
 claGood = {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json",
     "config": {
@@ -3038,6 +3035,6 @@ claGood = {
       "type": "bar"
     }
   }
-  
+
 vegaEmbed('#cla-graph-good', claGood, {"actions": false});
 vegaEmbed('#cla-graph-bad', claBad, {"actions": false});
