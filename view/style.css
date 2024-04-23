@@ -42,6 +42,7 @@ body::-webkit-scrollbar-thumb:hover {
 .csm, .cla, .management, .nursing, .environment, .education {
     padding: 1em;
 }
+
 .subtitles {
     color: var(--blue);
     font-size: 3em;
@@ -52,7 +53,7 @@ body::-webkit-scrollbar-thumb:hover {
     color: var(--brown);
     padding: 1em;
     text-align: center;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .cla, .csm, .management, .nursing, .environment, .education {
@@ -67,7 +68,6 @@ body::-webkit-scrollbar-thumb:hover {
     font-size: 2em;
     padding: 1em;
     text-align: center;
-    padding-bottom: 20em;
 }
 
 #umb-logo {
@@ -83,7 +83,6 @@ body::-webkit-scrollbar-thumb:hover {
 #csm-graph-bad, #cla-graph-bad, #management-graph-bad,
 #nursing-graph-bad, #environment-graph-bad, #education-graph-bad {
     width: 60em;
-    padding: 1em;
     max-width: 100%;
     height: auto;
 }

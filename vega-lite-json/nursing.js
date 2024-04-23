@@ -1,8 +1,8 @@
 nursingGood = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json",
-  "height": 600,
+  "height": 400,
   "width": {
-    "step": 200
+    "step": 50
   },
   "config": {
     "background": "#f8ead8",
@@ -769,9 +769,9 @@ nursingGood = {
       "axis": {
         "title": "",
         "labelFontSize": 20,
-        "labelAngle": 0,
+        "labelAngle": -30,
         "labelFontWeight": "bold",
-        "labelLimit": 0
+        "labelLimit": 200
       }
     },
     "y": {
@@ -808,14 +808,14 @@ nursingGood = {
   },
   "mark": {
     "type": "bar",
-    "size": 80
+    "size": 40
   }
 } 
 nursingBad = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json",
-  "height": 600,
+  "height": 400,
   "width": {
-    "step": 200
+    "step": 50
   },
   "config": {
     "background": "#f8ead8",
@@ -1114,9 +1114,9 @@ nursingBad = {
       "axis": {
         "title": "",
         "labelFontSize": 20,
-        "labelAngle": 0,
+        "labelAngle": -30,
         "labelFontWeight": "bold",
-        "labelLimit": 0
+        "labelLimit": 200
       }
     },
     "y": {
@@ -1153,7 +1153,7 @@ nursingBad = {
   },
   "mark": {
     "type": "bar",
-    "size": 80
+    "size": 40
   }
 }
 

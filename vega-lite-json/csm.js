@@ -1,8 +1,8 @@
 csmGood = {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json",
-    "height": 600,
+    "height": 400,
     "width": {
-      "step": 125
+      "step": 40
     },
     "config": {
       "background": "#f8ead8",
@@ -637,7 +637,7 @@ csmGood = {
         "axis": {
           "title": "",
           "labelFontSize": 16,
-          "labelAngle": 0,
+          "labelAngle": -30,
           "labelFontWeight": "bold",
         }
       },
@@ -673,15 +673,15 @@ csmGood = {
     },
     "mark": {
       "type": "bar",
-      "size": 80
+      "size": 30
     }
   }
 
 csmBad = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json",
-  "height": 600,
+  "height": 400,
   "width": {
-    "step": 125
+    "step": 40
   },
   "config": {
     "background": "#f8ead8",
@@ -1028,7 +1028,7 @@ csmBad = {
       "axis": {
         "title": "",
         "labelFontSize": 16,
-        "labelAngle": 0,
+        "labelAngle": -30,
         "labelFontWeight": "bold"
       }
     },
@@ -1066,7 +1066,7 @@ csmBad = {
   },
   "mark": {
     "type": "bar",
-    "size": 80
+    "size": 30
   }
 }
 
