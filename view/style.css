@@ -4,11 +4,32 @@
     --blue: #00558A;
     --brown: rgb(106, 38, 38);
 }
+
 html {
     background-color: var(--sand);
     width: 100%;
     height: 100%;
     font-family: "DynaPuff", sans-serif;
+}
+
+/* Target the entire webpage */
+body::-webkit-scrollbar {
+    width: 0.7em;
+}
+  
+/* Track (the background of the scrollbar) */
+body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle (the draggable part of the scrollbar) */
+body::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
 
 .title {
@@ -24,37 +45,53 @@ html {
 .subtitles {
     color: var(--blue);
     font-size: 3em;
+    padding-left: 1em;
 }
 
 .info {
     color: var(--brown);
     padding: 1em;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2em;
 }
 
-.csm, .management, .nursing, .environment, .education {
-    padding-bottom: 30em;
+.cla, .csm, .management, .nursing, .environment, .education {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: auto;
 }
 
-.cla {
-    padding-bottom: 10em;
+.text {
+    color: var(--brown);
+    font-size: 2em;
+    padding: 1em;
+    text-align: center;
+    padding-bottom: 20em;
 }
 
 #umb-logo {
-    width: 30rem;
+    width: 20em;
     padding: 1em;
     padding-bottom: 10em;
     display: block;
     margin: auto;
 }
 
-#csm-graph-good, #cla-graph-good, #management-graph-good, #nursing-graph-good, #environment-graph-good, #education-graph-good {
-    width: 60rem;
+#csm-graph-good, #cla-graph-good, #management-graph-good, 
+#nursing-graph-good, #environment-graph-good, #education-graph-good,
+#csm-graph-bad, #cla-graph-bad, #management-graph-bad,
+#nursing-graph-bad, #environment-graph-bad, #education-graph-bad {
+    width: 60em;
     padding: 1em;
+    max-width: 100%;
+    height: auto;
+}
+
+#thumbsup, #thumbsdown {
+    width: 8em;
+    padding: 1em;
+
 }
 
 .faculty-vs-coach-link {

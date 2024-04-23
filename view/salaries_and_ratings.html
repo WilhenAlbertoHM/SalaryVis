@@ -7,9 +7,15 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
     
+    <!--Vega Lite-->
     <script src="https://cdn.jsdelivr.net/npm/vega@5.25.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.16.3"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.22.2"></script>
+
+    <!--GSAP-->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
 </head>
 <body>
     <div class="title">
@@ -25,37 +31,77 @@
 
     <h2 class="subtitles">College of Science & Mathematics</h2>
     <div class="csm">
+        <img id="thumbsup" src="../imgs/thumbsup.png">
         <div id="csm-graph-good"></div>
+        <img id="thumbsdown" src="../imgs/thumbsdown.png">
         <div id="csm-graph-bad"></div>        
+    </div>
+    <div class="text">
+        <h3>
+            Hmm, <span style="text-decoration: underline">Chemistry</span> seems to show that there is a <span style="text-decoration: underline">positive correlation</span> 
+            between <span style="text-decoration: underline">rating</span> and <span style="text-decoration: underline">salary.</span> 
+            <br>
+            However, it doesn't seem like it for <span style="text-decoration: underline">Engineering</span> and <span style="text-decoration: underline">Physics</span> 👀
+        </h3>
     </div>
 
     <h2 class="subtitles">Manning College of Nursing & Health Sciences</h2>
     <div class="nursing">
+        <img id="thumbsup" src="../imgs/thumbsup.png">
         <div id="nursing-graph-good"></div>
+        <img id="thumbsdown" src="../imgs/thumbsdown.png">
         <div id="nursing-graph-bad"></div>
+    </div>
+    <div class="text">
+        <h3>
+            Hmm, Chemistry 
+        </h3>
     </div>
 
     <h2 class="subtitles">College of Management</h2>
     <div class="management">
+        <img id="thumbsup" src="../imgs/thumbsup.png">
         <div id="management-graph-good"></div>
+        <img id="thumbsdown" src="../imgs/thumbsdown.png">
         <div id="management-graph-bad"></div>
+    </div>
+    <div class="text">
+        <h3>
+            Hmm, Chemistry 
+        </h3>
     </div>
 
     <h2 class="subtitles">School for the Environment</h2>
     <div class="environment">
+        <img id="thumbsup" src="../imgs/thumbsup.png">
         <div id="environment-graph-good"></div>
+        <img id="thumbsdown" src="../imgs/thumbsdown.png">
         <div id="environment-graph-bad"></div>
+    </div>
+    <div class="text">
+        <h3>
+            Hmm, Chemistry 
+        </h3>
     </div>
 
     <h2 class="subtitles">College of Education & Human Development</h2>
     <div class="education">
+        <img id="thumbsup" src="../imgs/thumbsup.png">
         <div id="education-graph-good"></div>
+        <img id="thumbsdown" src="../imgs/thumbsdown.png">
         <div id="education-graph-bad"></div>
+    </div>
+    <div class="text">
+        <h3>
+            Hmm, Chemistry 
+        </h3>
     </div>
 
     <h2 class="subtitles">College of Liberal Arts</h2>
     <div class="cla">
+        <img id="thumbsup" src="../imgs/thumbsup.png">
         <div id="cla-graph-good"></div>
+        <img id="thumbsdown" src="../imgs/thumbsdown.png">
         <div id="cla-graph-bad"></div>
     </div>
 
@@ -76,5 +122,6 @@
     <script src="../vega-lite-json/environment.js"></script>
     <script src="../vega-lite-json/education.js"></script>
     <script src="../vega-lite-json/cla.js"></script>
+    <script src="scroll.js"></script>
 </body>
 </html>

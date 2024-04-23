@@ -1,10 +1,11 @@
 nursingGood = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json",
-  "height": 500,
+  "height": 600,
   "width": {
     "step": 200
   },
   "config": {
+    "background": "#f8ead8",
     "view": {
       "continuousHeight": 300,
       "continuousWidth": 300
@@ -766,18 +767,26 @@ nursingGood = {
       "field": "DEPARTMENT",
       "type": "nominal",
       "axis": {
-        "title": "Department",
-        "labelFontSize": 10,
-        "labelAngle": 0
+        "title": "",
+        "labelFontSize": 20,
+        "labelAngle": 0,
+        "labelFontWeight": "bold",
+        "labelLimit": 0
       }
     },
     "y": {
       "aggregate": "mean",
       "field": "ANNUAL_RATE",
       "type": "quantitative",
+      "scale": {
+        "domain": [0, 150000],
+      },
       "axis": {
-        "title": "Average Annual Rate (in dollars $)",
-        "labelFontSize": 10
+        "title": "",
+        "labelFontSize": 20,
+        "labelFontWeight": "bold",
+        "grid": false,
+        "tickCount": 5,
       }
     },
     "color": {
@@ -799,16 +808,17 @@ nursingGood = {
   },
   "mark": {
     "type": "bar",
-    "size": 70
+    "size": 80
   }
 } 
 nursingBad = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json",
-  "height": 500,
+  "height": 600,
   "width": {
     "step": 200
   },
   "config": {
+    "background": "#f8ead8",
     "view": {
       "continuousHeight": 300,
       "continuousWidth": 300
@@ -1102,18 +1112,26 @@ nursingBad = {
       "field": "DEPARTMENT",
       "type": "nominal",
       "axis": {
-        "title": "Department",
-        "labelFontSize": 10,
-        "labelAngle": 0
+        "title": "",
+        "labelFontSize": 20,
+        "labelAngle": 0,
+        "labelFontWeight": "bold",
+        "labelLimit": 0
       }
     },
     "y": {
       "aggregate": "mean",
       "field": "ANNUAL_RATE",
       "type": "quantitative",
+      "scale": {
+        "domain": [0, 150000]
+      },
       "axis": {
-        "title": "Average Annual Rate (in dollars $)",
-        "labelFontSize": 10
+        "title": "",
+        "labelFontSize": 20,
+        "labelFontWeight": "bold",
+        "grid": false,
+        "tickCount": 5
       }
     },
     "color": {
@@ -1135,9 +1153,9 @@ nursingBad = {
   },
   "mark": {
     "type": "bar",
-    "size": 70
+    "size": 80
   }
 }
 
-vegaEmbed('#nursing-graph-good', nursingGood, {"actions": false});
-vegaEmbed('#nursing-graph-bad', nursingBad, {"actions": false});
+vegaEmbed('#nursing-graph-good', nursingGood, {"actions": false, "renderer": "svg"});
+vegaEmbed('#nursing-graph-bad', nursingBad, {"actions": false, "renderer": "svg"});

@@ -1,13 +1,14 @@
 csmGood = {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json",
-    "height": 500,
+    "height": 600,
     "width": {
-      "step": 120
+      "step": 125
     },
     "config": {
+      "background": "#f8ead8",
       "view": {
         "continuousHeight": 300,
-        "continuousWidth": 300
+        "continuousWidth": 300,
       }
     },
     "data": {
@@ -634,18 +635,23 @@ csmGood = {
         "field": "DEPARTMENT",
         "type": "nominal",
         "axis": {
-          "title": "Department",
-          "labelFontSize": 10,
-          "labelAngle": 0
+          "title": "",
+          "labelFontSize": 16,
+          "labelAngle": 0,
+          "labelFontWeight": "bold",
         }
       },
       "y": {
         "aggregate": "mean",
         "field": "ANNUAL_RATE",
         "type": "quantitative",
+        "scale": {"domain": [0, 130000]},
         "axis": {
-          "title": "Average Annual Rate (in dollars $)",
-          "labelFontSize": 10
+          "title": "",
+          "labelFontSize": 20,
+          "labelFontWeight": "bold",
+          "grid": false,
+          "tickCount": 5
         }
       },
       "color": {
@@ -667,7 +673,7 @@ csmGood = {
     },
     "mark": {
       "type": "bar",
-      "size": 70
+      "size": 80
     }
   }
 
@@ -675,12 +681,13 @@ csmBad = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json",
   "height": 600,
   "width": {
-    "step": 120
+    "step": 125
   },
   "config": {
+    "background": "#f8ead8",
     "view": {
       "continuousHeight": 300,
-      "continuousWidth": 300
+      "continuousWidth": 300,
     }
   },
   "data": {
@@ -1019,18 +1026,25 @@ csmBad = {
       "field": "DEPARTMENT",
       "type": "nominal",
       "axis": {
-        "title": "Department",
-        "labelFontSize": 10,
-        "labelAngle": 0
+        "title": "",
+        "labelFontSize": 16,
+        "labelAngle": 0,
+        "labelFontWeight": "bold"
       }
     },
     "y": {
       "aggregate": "mean",
       "field": "ANNUAL_RATE",
       "type": "quantitative",
+      "scale": {
+        "domain": [0, 130000],
+      },
       "axis": {
-        "title": "Average Annual Rate (in dollars $)",
-        "labelFontSize": 10
+        "title": "",
+        "labelFontSize": 20,
+        "labelFontWeight": "bold",
+        "grid": false,
+        "tickCount": 5
       }
     },
     "color": {
@@ -1052,9 +1066,9 @@ csmBad = {
   },
   "mark": {
     "type": "bar",
-    "size": 70
+    "size": 80
   }
 }
 
-vegaEmbed('#csm-graph-good', csmGood, {"actions": false});
-vegaEmbed('#csm-graph-bad', csmBad, {"actions": false});
+vegaEmbed('#csm-graph-good', csmGood, {"actions": false, "renderer": "svg"});
+vegaEmbed('#csm-graph-bad', csmBad, {"actions": false, "renderer": "svg"});

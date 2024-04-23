@@ -1,10 +1,11 @@
 managementGood = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json",
-  "height": 500,
+  "height": 600,
   "width": {
     "step": 200
   },
   "config": {
+    "background": "#f8ead8",
     "view": {
       "continuousHeight": 300,
       "continuousWidth": 300
@@ -766,18 +767,26 @@ managementGood = {
       "field": "DEPARTMENT",
       "type": "nominal",
       "axis": {
-        "title": "Department",
-        "labelFontSize": 10,
-        "labelAngle": 0
+        "title": "",
+        "labelFontSize": 18,
+        "labelAngle": 0,
+        "labelFontWeight": "bold",
+        "labelLimit": 250,
       }
     },
     "y": {
       "aggregate": "mean",
       "field": "ANNUAL_RATE",
       "type": "quantitative",
+      "scale": {
+        "domain": [0, 150000]
+      },
       "axis": {
-        "title": "Average Annual Rate (in dollars $)",
-        "labelFontSize": 10
+        "title": "",
+        "labelFontSize": 20,
+        "labelFontWeight": "bold",
+        "grid": false,
+        "tickCount": 6,
       }
     },
     "color": {
@@ -799,17 +808,18 @@ managementGood = {
   },
   "mark": {
     "type": "bar",
-    "size": 70
+    "size": 80
   }
 }
   
 managementBad = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json",
-  "height": 500,
+  "height": 600,
   "width": {
     "step": 200
   },
   "config": {
+    "background": "#f8ead8",
     "view": {
       "continuousHeight": 300,
       "continuousWidth": 300
@@ -983,18 +993,26 @@ managementBad = {
       "field": "DEPARTMENT",
       "type": "nominal",
       "axis": {
-        "title": "Department",
-        "labelFontSize": 10,
-        "labelAngle": 0
+        "title": "",
+        "labelFontSize": 18,
+        "labelFontWeight": "bold",
+        "labelAngle": 0,
+        "labelLimit": 250
       }
     },
     "y": {
       "aggregate": "mean",
       "field": "ANNUAL_RATE",
       "type": "quantitative",
+      "scale": {
+        "domain": [0, 150000]
+      },
       "axis": {
-        "title": "Average Annual Rate (in dollars $)",
-        "labelFontSize": 10
+        "title": "",
+        "labelFontSize": 20,
+        "labelFontWeight": "bold",
+        "grid": false,
+        "tickCount": 6
       }
     },
     "color": {
@@ -1016,9 +1034,9 @@ managementBad = {
   },
   "mark": {
     "type": "bar",
-    "size": 70
+    "size": 80
   }
 }
 
-vegaEmbed('#management-graph-good', managementGood, {"actions": false});
-vegaEmbed('#management-graph-bad', managementBad, {"actions": false});
+vegaEmbed('#management-graph-good', managementGood, {"actions": false, "renderer": "svg"});
+vegaEmbed('#management-graph-bad', managementBad, {"actions": false, "renderer": "svg"});

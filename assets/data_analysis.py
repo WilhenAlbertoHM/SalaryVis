@@ -13,10 +13,6 @@ faculty_df.drop(columns=["Unnamed: 0.1", "Unnamed: 0"], inplace=True)
 position_title_counts = faculty_df["POSITION_TITLE"].value_counts()
 print(position_title_counts)
 
-# Filter faculty_df to have certain position titles
-titles = ["Associate Lecturer", "Associate Professor", "Assoc Lecturer A", "Assistant Professor", "Lecturer", "Professor", "Senior Lecturer", "Senior Lecturer II", "Senior Lecturer III", 
-          "Clinical Associate Lecturer", "Clinical Associate Lecturer A", "Grad Prog Dir/Assoc Professor", "Grad Prog Dir/Professor"]
-
 # Get the annual rate for ratings above 3
 avg_num_ratings = 1
 print(avg_num_ratings)
@@ -63,8 +59,7 @@ nursing_departments = ["Nursing", "Exercise & Health Science", "Urban Public Hea
 environment_departments = ["Urban Planning & Community Development", "Urban Public Health"]
 education_departments = ["Counseling & School Psychology", "Curriculum & Instruction"]
 cla_departments = ["Performing Arts", "English", "Psychology", "Communications", "American Studies", "Classics & Religious Studies",
-                   "Anthropology", "Applied Linguistics", "Latin American & Iberian Studies", "Modern Languages Lit", "Art", "Economics", "Sociology", "Africana Studies", "History",
-                   "Philosophy", "Asian Studies"]
+                   "Anthropology", "Modern Languages Lit", "Art", "Economics", "Philosophy"]
 csm_deparments = ["Computer Science", "Engineering", "Physics", "Mathematics", "Biology", "Chemistry"]
 
 # Get faculty above 3 rating by departments
@@ -83,7 +78,6 @@ education_below_3 = get_faculty_below_3_rating_by_departments(education_departme
 cla_below_3 = get_faculty_below_3_rating_by_departments(cla_departments)
 csm_below_3 = get_faculty_below_3_rating_by_departments(csm_deparments)
 
-filtered_education_departments = filter_departments(education_above_3, education_below_3)
 
 # Plot the average annual rate by department
 # plot_average_annual_rate_by_department(management_above_3.groupby("DEPARTMENT")["ANNUAL_RATE"].mean())
@@ -101,14 +95,78 @@ filtered_education_departments = filter_departments(education_above_3, education
 # plot_average_annual_rate_by_department(cla_above_3.groupby("DEPARTMENT")["ANNUAL_RATE"].mean())
 # plot_average_annual_rate_by_department(cla_below_3.groupby("DEPARTMENT")["ANNUAL_RATE"].mean())
 
+# plot_average_annual_rate_by_department(csm_above_3.groupby("DEPARTMENT")["ANNUAL_RATE"].mean())
+# plot_average_annual_rate_by_department(csm_below_3.groupby("DEPARTMENT")["ANNUAL_RATE"].mean())
+
+# Get the JSON for the bar charts
+# Management
+chart = alt.Chart(management_above_3).mark_bar().encode(
+    x='DEPARTMENT',
+    y='mean(ANNUAL_RATE)',
+)
+print(chart.to_json())
+chart = alt.Chart(management_below_3).mark_bar().encode(
+    x='DEPARTMENT',
+    y='mean(ANNUAL_RATE)',
+)
+print(chart.to_json())
+
+# Nursing
+chart = alt.Chart(nursing_above_3).mark_bar().encode(
+    x='DEPARTMENT',
+    y='mean(ANNUAL_RATE)',
+)
+print(chart.to_json())
+chart = alt.Chart(nursing_below_3).mark_bar().encode(
+    x='DEPARTMENT',
+    y='mean(ANNUAL_RATE)',
+)
+print(chart.to_json())
+
+# Environment
+chart = alt.Chart(environment_above_3).mark_bar().encode(
+    x='DEPARTMENT',
+    y='mean(ANNUAL_RATE)',
+)
+print(chart.to_json())
+chart = alt.Chart(environment_below_3).mark_bar().encode(
+    x='DEPARTMENT',
+    y='mean(ANNUAL_RATE)',
+)
+print(chart.to_json())
+
+# Education
+chart = alt.Chart(education_above_3).mark_bar().encode(
+    x='DEPARTMENT',
+    y='mean(ANNUAL_RATE)',
+)
+print(chart.to_json())
+chart = alt.Chart(education_below_3).mark_bar().encode(
+    x='DEPARTMENT',
+    y='mean(ANNUAL_RATE)',
+)
+print(chart.to_json())
+
+# CLA
+chart = alt.Chart(cla_above_3).mark_bar().encode(
+    x='DEPARTMENT',
+    y='mean(ANNUAL_RATE)',
+)
+print(chart.to_json())
 chart = alt.Chart(cla_below_3).mark_bar().encode(
     x='DEPARTMENT',
     y='mean(ANNUAL_RATE)',
 )
 print(chart.to_json())
 
-# Aggregate bar chart
-
-
-# plot_average_annual_rate_by_department(csm_above_3.groupby("DEPARTMENT")["ANNUAL_RATE"].mean())
-# plot_average_annual_rate_by_department(csm_below_3.groupby("DEPARTMENT")["ANNUAL_RATE"].mean())
+# CSM
+chart = alt.Chart(csm_above_3).mark_bar().encode(
+    x='DEPARTMENT',
+    y='mean(ANNUAL_RATE)',
+)
+print(chart.to_json())
+chart = alt.Chart(csm_below_3).mark_bar().encode(
+    x='DEPARTMENT',
+    y='mean(ANNUAL_RATE)',
+)
+print(chart.to_json())

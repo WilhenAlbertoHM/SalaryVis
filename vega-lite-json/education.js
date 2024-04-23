@@ -5,6 +5,7 @@ eduGood = {
     "step": 300
   },
   "config": {
+    "background": "#f8ead8",
     "view": {
       "continuousHeight": 300,
       "continuousWidth": 300
@@ -466,18 +467,24 @@ eduGood = {
       "field": "DEPARTMENT",
       "type": "nominal",
       "axis": {
-        "title": "Department",
-        "labelFontSize": 10,
-        "labelAngle": 0
+        "title": "",
+        "labelFontSize": 20,
+        "labelAngle": 0,
+        "labelFontWeight": "bold",
+        "labelLimit": 300,
       }
     },
     "y": {
       "aggregate": "mean",
       "field": "ANNUAL_RATE",
       "type": "quantitative",
+      "scale": {
+        "domain": [0, 100000]
+      },
       "axis": {
-        "title": "Average Annual Rate (in dollars $)",
-        "labelFontSize": 10
+        "title": "",
+        "labelFontSize": 20,
+        "grid": false
       }
     },
     "color": {
@@ -494,12 +501,12 @@ eduGood = {
       {
         "field": "DEPARTMENT",  
         "title": "Department"
-      },
-    ],
+      }
+    ]
   },
   "mark": {
     "type": "bar",
-    "size": 70
+    "size": 80
   }
 }
   
@@ -510,6 +517,7 @@ eduBad = {
     "step": 300
   },
   "config": {
+    "background": "#f8ead8",
     "view": {
       "continuousHeight": 300,
       "continuousWidth": 300
@@ -599,22 +607,28 @@ eduBad = {
       "field": "DEPARTMENT",
       "type": "nominal",
       "axis": {
-        "title": "Department",
-        "labelFontSize": 10,
-        "labelAngle": 0
+        "title": "",
+        "labelFontSize": 20,
+        "labelAngle": 0,
+        "labelFontWeight": "bold",
+        "labelLimit": 300,
       }
     },
     "y": {
       "aggregate": "mean",
       "field": "ANNUAL_RATE",
       "type": "quantitative",
+      "scale": {
+        "domain": [0, 100000]
+      },
       "axis": {
-        "title": "Average Annual Rate (in dollars $)",
-        "labelFontSize": 10
+        "title": "",
+        "labelFontSize": 20,
+        "grid": false
       }
     },
     "color": {
-      "value": "green"
+      "value": "darkred"
     },
     "tooltip": [
       {"content": "encoding"},
@@ -632,9 +646,9 @@ eduBad = {
   },
   "mark": {
     "type": "bar",
-    "size": 70
+    "size": 80
   }
 }
 
-vegaEmbed('#education-graph-good', eduGood, {"actions": false});
-vegaEmbed('#education-graph-bad', eduBad, {"actions": false});
+vegaEmbed('#education-graph-good', eduGood, {"actions": false, "renderer": "svg"});
+vegaEmbed('#education-graph-bad', eduBad, {"actions": false, "renderer": "svg"});

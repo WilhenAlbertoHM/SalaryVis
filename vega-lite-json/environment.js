@@ -1,10 +1,11 @@
 envGood = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json",
-  "height": 500,
+  "height": 600,
   "width": {
     "step": 300
   },
   "config": {
+    "background": "#f8ead8",
     "view": {
       "continuousHeight": 300,
       "continuousWidth": 300
@@ -70,18 +71,26 @@ envGood = {
       "field": "DEPARTMENT",
       "type": "nominal",
       "axis": {
-        "title": "Department",
-        "labelFontSize": 10,
-        "labelAngle": 0
+        "title": "",
+        "labelFontSize": 20,
+        "labelFontWeight": "bold",
+        "labelAngle": 0,
+        "labelLimit": 310,
       }
     },
     "y": {
       "aggregate": "mean",
       "field": "ANNUAL_RATE",
       "type": "quantitative",
+      "scale": {
+        "domain": [0, 150000]
+      },
       "axis": {
-        "title": "Average Annual Rate (in dollars $)",
-        "labelFontSize": 10
+        "title": "",
+        "labelFontSize": 20,
+        "labelFontWeight": "bold",
+        "tickCount": 6,
+        "grid": false
       }
     },
     "color": {
@@ -103,17 +112,18 @@ envGood = {
   },
   "mark": {
     "type": "bar",
-    "size": 70
+    "size": 80
   }
 }
   
 envBad = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json",
-  "height": 500,
+  "height": 600,
   "width": {
     "step": 300
   },
   "config": {
+    "background": "#f8ead8",
     "view": {
       "continuousHeight": 300,
       "continuousWidth": 300
@@ -155,18 +165,26 @@ envBad = {
       "field": "DEPARTMENT",
       "type": "nominal",
       "axis": {
-        "title": "Department",
-        "labelFontSize": 10,
-        "labelAngle": 0
+        "title": "",
+        "labelFontSize": 20,
+        "labelFontWeight": "bold",
+        "labelAngle": 0,
+        "labelLimit": 310,
       }
     },
     "y": {
       "aggregate": "mean",
       "field": "ANNUAL_RATE",
       "type": "quantitative",
+      "scale": {
+        "domain": [0, 150000]
+      },
       "axis": {
-        "title": "Average Annual Rate (in dollars $)",
-        "labelFontSize": 10
+        "title": "",
+        "labelFontSize": 20,
+        "labelFontWeight": "bold",
+        "tickCount": 6,
+        "grid": false
       }
     },
     "color": {
@@ -188,9 +206,9 @@ envBad = {
   },
   "mark": {
     "type": "bar",
-    "size": 70
+    "size": 80
   }
 }
   
-vegaEmbed('#environment-graph-good', envGood, {"actions": false});
-vegaEmbed('#environment-graph-bad', envBad, {"actions": false});
+vegaEmbed('#environment-graph-good', envGood, {"actions": false, "renderer": "svg"});
+vegaEmbed('#environment-graph-bad', envBad, {"actions": false, "renderer": "svg"});

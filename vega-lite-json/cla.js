@@ -1,20 +1,21 @@
 claGood = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json",
-  "height": 500,
+  "height": 600,
   "width": {
-    "step": 130
+    "step": 60
   },
   "config": {
+    "background": "#f8ead8",
     "view": {
       "continuousHeight": 300,
       "continuousWidth": 300
     }
   },
   "data": {
-    "name": "data-5d5c66e730fc7418a38f6da9c95d87a2"
+    "name": "data-0932df0db849802e8ca687c5be917fb5"
   },
   "datasets": {
-    "data-5d5c66e730fc7418a38f6da9c95d87a2": [
+    "data-0932df0db849802e8ca687c5be917fb5": [
       {
         "ANNUAL_RATE": 8726.38,
         "DEPARTMENT": "Performing Arts",
@@ -146,18 +147,6 @@ claGood = {
         "PAY_TOTAL_ACTUAL": 9503.0,
         "POSITION_TITLE": "Senior Lecturer II",
         "RATING": 4.0
-      },
-      {
-        "ANNUAL_RATE": 11000.0,
-        "DEPARTMENT": "Latin American & Iberian Studies",
-        "FULL_NAME": "Albert Mogavero",
-        "NAME_FIRST": "Albert",
-        "NAME_LAST": "Mogavero",
-        "NUM_RATINGS": 6,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 2476.17,
-        "POSITION_TITLE": "Associate Lecturer",
-        "RATING": 4.9
       },
       {
         "ANNUAL_RATE": 90705.248,
@@ -364,18 +353,6 @@ claGood = {
         "RATING": 5.0
       },
       {
-        "ANNUAL_RATE": 48838.25,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "Elizabeth Clemens",
-        "NAME_FIRST": "Elizabeth",
-        "NAME_LAST": "Clemens",
-        "NUM_RATINGS": 3,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 11125.88,
-        "POSITION_TITLE": "Senior Lecturer II",
-        "RATING": 5.0
-      },
-      {
         "ANNUAL_RATE": 216976.943,
         "DEPARTMENT": "Anthropology",
         "FULL_NAME": "Stephen Mrozowski",
@@ -386,30 +363,6 @@ claGood = {
         "PAY_TOTAL_ACTUAL": 49429.64,
         "POSITION_TITLE": "Distinguished Univ Professor",
         "RATING": 4.0
-      },
-      {
-        "ANNUAL_RATE": 105158.425,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "Jason Rodriquez",
-        "NAME_FIRST": "Jason",
-        "NAME_LAST": "Rodriquez",
-        "NUM_RATINGS": 21,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 23956.24,
-        "POSITION_TITLE": "Associate Professor",
-        "RATING": 4.8
-      },
-      {
-        "ANNUAL_RATE": 94288.1,
-        "DEPARTMENT": "Africana Studies",
-        "FULL_NAME": "Anthony VanDerMeer",
-        "NAME_FIRST": "Anthony",
-        "NAME_LAST": "VanDerMeer",
-        "NUM_RATINGS": 9,
-        "PAY_OTHER_ACTUAL": 1700.96,
-        "PAY_TOTAL_ACTUAL": 23180.76,
-        "POSITION_TITLE": "Senior Lecturer III",
-        "RATING": 4.1
       },
       {
         "ANNUAL_RATE": 70809.807,
@@ -532,18 +485,6 @@ claGood = {
         "RATING": 3.9
       },
       {
-        "ANNUAL_RATE": 95752.868,
-        "DEPARTMENT": "Latin American & Iberian Studies",
-        "FULL_NAME": "Susan Mraz",
-        "NAME_FIRST": "Susan",
-        "NAME_LAST": "Mraz",
-        "NUM_RATINGS": 33,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 21813.52,
-        "POSITION_TITLE": "Senior Lecturer III",
-        "RATING": 3.6
-      },
-      {
         "ANNUAL_RATE": 158157.274,
         "DEPARTMENT": "American Studies",
         "FULL_NAME": "Rachel Rubin",
@@ -628,18 +569,6 @@ claGood = {
         "RATING": 4.4
       },
       {
-        "ANNUAL_RATE": 183689.803,
-        "DEPARTMENT": "Africana Studies",
-        "FULL_NAME": "Jemadari Kamara",
-        "NAME_FIRST": "Jemadari",
-        "NAME_LAST": "Kamara",
-        "NUM_RATINGS": 28,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 41846.52,
-        "POSITION_TITLE": "Professor",
-        "RATING": 4.0
-      },
-      {
         "ANNUAL_RATE": 122804.804,
         "DEPARTMENT": "Philosophy",
         "FULL_NAME": "Nelson Lande",
@@ -686,30 +615,6 @@ claGood = {
         "PAY_TOTAL_ACTUAL": 22344.57,
         "POSITION_TITLE": "Senior Lecturer III",
         "RATING": 5.0
-      },
-      {
-        "ANNUAL_RATE": 100001.764,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "Jacqueline Lageson",
-        "NAME_FIRST": "Jacqueline",
-        "NAME_LAST": "Lageson",
-        "NUM_RATINGS": 9,
-        "PAY_OTHER_ACTUAL": 5500.0,
-        "PAY_TOTAL_ACTUAL": 28281.48,
-        "POSITION_TITLE": "Senior Lecturer III",
-        "RATING": 4.0
-      },
-      {
-        "ANNUAL_RATE": 159120.301,
-        "DEPARTMENT": "Latin American & Iberian Studies",
-        "FULL_NAME": "Reyes Coll-Tellechea",
-        "NAME_FIRST": "Reyes",
-        "NAME_LAST": "Coll-Tellechea",
-        "NUM_RATINGS": 10,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 36249.32,
-        "POSITION_TITLE": "Professor",
-        "RATING": 4.3
       },
       {
         "ANNUAL_RATE": 126635.688,
@@ -808,18 +713,6 @@ claGood = {
         "RATING": 4.1
       },
       {
-        "ANNUAL_RATE": 41788.132,
-        "DEPARTMENT": "History",
-        "FULL_NAME": "Gary Miller",
-        "NAME_FIRST": "Gary",
-        "NAME_LAST": "Miller",
-        "NUM_RATINGS": 50,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 9519.8,
-        "POSITION_TITLE": "Senior Lecturer II",
-        "RATING": 4.9
-      },
-      {
         "ANNUAL_RATE": 108073.627,
         "DEPARTMENT": "Anthropology",
         "FULL_NAME": "Jean-Philippe Belleau",
@@ -856,30 +749,6 @@ claGood = {
         "RATING": 3.1
       },
       {
-        "ANNUAL_RATE": 38136.499,
-        "DEPARTMENT": "Latin American & Iberian Studies",
-        "FULL_NAME": "Maria Berte",
-        "NAME_FIRST": "Maria",
-        "NAME_LAST": "Berte",
-        "NUM_RATINGS": 4,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 8687.88,
-        "POSITION_TITLE": "Senior Lecturer",
-        "RATING": 4.3
-      },
-      {
-        "ANNUAL_RATE": 111719.688,
-        "DEPARTMENT": "History",
-        "FULL_NAME": "Vincent Cannato",
-        "NAME_FIRST": "Vincent",
-        "NAME_LAST": "Cannato",
-        "NUM_RATINGS": 29,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 25450.96,
-        "POSITION_TITLE": "Associate Professor",
-        "RATING": 4.5
-      },
-      {
         "ANNUAL_RATE": 149371.682,
         "DEPARTMENT": "Psychology",
         "FULL_NAME": "Erik Blaser",
@@ -904,30 +773,6 @@ claGood = {
         "RATING": 5.0
       },
       {
-        "ANNUAL_RATE": 114506.078,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "Jorge Capetillo",
-        "NAME_FIRST": "Jorge",
-        "NAME_LAST": "Capetillo",
-        "NUM_RATINGS": 26,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 26085.72,
-        "POSITION_TITLE": "Associate Professor",
-        "RATING": 3.5
-      },
-      {
-        "ANNUAL_RATE": 99097.48,
-        "DEPARTMENT": "History",
-        "FULL_NAME": "MaryAnn Brink",
-        "NAME_FIRST": "MaryAnn",
-        "NAME_LAST": "Brink",
-        "NUM_RATINGS": 27,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 22575.44,
-        "POSITION_TITLE": "Senior Lecturer III",
-        "RATING": 3.3
-      },
-      {
         "ANNUAL_RATE": 98736.022,
         "DEPARTMENT": "Classics & Religious Studies",
         "FULL_NAME": "Kellee Barnard",
@@ -950,18 +795,6 @@ claGood = {
         "PAY_TOTAL_ACTUAL": 9470.4,
         "POSITION_TITLE": "Senior Lecturer II",
         "RATING": 3.0
-      },
-      {
-        "ANNUAL_RATE": 109466.119,
-        "DEPARTMENT": "History",
-        "FULL_NAME": "Timothy Hacsi",
-        "NAME_FIRST": "Timothy",
-        "NAME_LAST": "Hacsi",
-        "NUM_RATINGS": 2,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 24937.56,
-        "POSITION_TITLE": "Associate Professor",
-        "RATING": 4.0
       },
       {
         "ANNUAL_RATE": 107498.525,
@@ -1108,42 +941,6 @@ claGood = {
         "RATING": 4.1
       },
       {
-        "ANNUAL_RATE": 11375.259,
-        "DEPARTMENT": "History",
-        "FULL_NAME": "Meaghan Duff",
-        "NAME_FIRST": "Meaghan",
-        "NAME_LAST": "Duff",
-        "NUM_RATINGS": 12,
-        "PAY_OTHER_ACTUAL": 5500.0,
-        "PAY_TOTAL_ACTUAL": 7862.5,
-        "POSITION_TITLE": "Associate Lecturer",
-        "RATING": 3.1
-      },
-      {
-        "ANNUAL_RATE": 66136.884,
-        "DEPARTMENT": "Latin American & Iberian Studies",
-        "FULL_NAME": "Patricia Anderson",
-        "NAME_FIRST": "Patricia",
-        "NAME_LAST": "Anderson",
-        "NUM_RATINGS": 33,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 15066.68,
-        "POSITION_TITLE": "Senior Lecturer II",
-        "RATING": 3.9
-      },
-      {
-        "ANNUAL_RATE": 95790.097,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "Anna Beckwith",
-        "NAME_FIRST": "Anna",
-        "NAME_LAST": "Beckwith",
-        "NUM_RATINGS": 95,
-        "PAY_OTHER_ACTUAL": 5962.56,
-        "PAY_TOTAL_ACTUAL": 27784.6,
-        "POSITION_TITLE": "Senior Lecturer III",
-        "RATING": 3.0
-      },
-      {
         "ANNUAL_RATE": 89881.993,
         "DEPARTMENT": "English",
         "FULL_NAME": "Paul Dyson",
@@ -1166,30 +963,6 @@ claGood = {
         "PAY_TOTAL_ACTUAL": 20078.16,
         "POSITION_TITLE": "Senior Lecturer II",
         "RATING": 4.9
-      },
-      {
-        "ANNUAL_RATE": 24680.76,
-        "DEPARTMENT": "History",
-        "FULL_NAME": "Thomas Johnson",
-        "NAME_FIRST": "Thomas",
-        "NAME_LAST": "Johnson",
-        "NUM_RATINGS": 27,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 5126.0,
-        "POSITION_TITLE": "Associate Lecturer",
-        "RATING": 3.1
-      },
-      {
-        "ANNUAL_RATE": 12340.38,
-        "DEPARTMENT": "History",
-        "FULL_NAME": "Thomas Johnson",
-        "NAME_FIRST": "Thomas",
-        "NAME_LAST": "Johnson",
-        "NUM_RATINGS": 27,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 1661.24,
-        "POSITION_TITLE": "Associate Lecturer",
-        "RATING": 3.1
       },
       {
         "ANNUAL_RATE": 74434.172,
@@ -1324,30 +1097,6 @@ claGood = {
         "RATING": 4.0
       },
       {
-        "ANNUAL_RATE": 77550.319,
-        "DEPARTMENT": "Latin American & Iberian Studies",
-        "FULL_NAME": "Diego Mansilla",
-        "NAME_FIRST": "Diego",
-        "NAME_LAST": "Mansilla",
-        "NUM_RATINGS": 1,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 17666.76,
-        "POSITION_TITLE": "Senior Lecturer",
-        "RATING": 5.0
-      },
-      {
-        "ANNUAL_RATE": 12657.84,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "Lydia Todd",
-        "NAME_FIRST": "Lydia",
-        "NAME_LAST": "Todd",
-        "NUM_RATINGS": 1,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 2921.04,
-        "POSITION_TITLE": "Associate Lecturer",
-        "RATING": 4.0
-      },
-      {
         "ANNUAL_RATE": 83902.007,
         "DEPARTMENT": "English",
         "FULL_NAME": "Itai Halevi",
@@ -1357,42 +1106,6 @@ claGood = {
         "PAY_OTHER_ACTUAL": 0.0,
         "PAY_TOTAL_ACTUAL": 19113.76,
         "POSITION_TITLE": "Senior Lecturer II",
-        "RATING": 5.0
-      },
-      {
-        "ANNUAL_RATE": 187445.149,
-        "DEPARTMENT": "History",
-        "FULL_NAME": "Roberta Wollons",
-        "NAME_FIRST": "Roberta",
-        "NAME_LAST": "Wollons",
-        "NUM_RATINGS": 15,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 42701.96,
-        "POSITION_TITLE": "Professor",
-        "RATING": 3.5
-      },
-      {
-        "ANNUAL_RATE": 135736.578,
-        "DEPARTMENT": "History",
-        "FULL_NAME": "Bonnie Miller",
-        "NAME_FIRST": "Bonnie",
-        "NAME_LAST": "Miller",
-        "NUM_RATINGS": 27,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 30922.24,
-        "POSITION_TITLE": "Professor",
-        "RATING": 3.8
-      },
-      {
-        "ANNUAL_RATE": 36156.12,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "Gerald Walsh",
-        "NAME_FIRST": "Gerald",
-        "NAME_LAST": "Walsh",
-        "NUM_RATINGS": 35,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 5649.39,
-        "POSITION_TITLE": "Assoc Lecturer A",
         "RATING": 5.0
       },
       {
@@ -1444,18 +1157,6 @@ claGood = {
         "RATING": 5.0
       },
       {
-        "ANNUAL_RATE": 57177.751,
-        "DEPARTMENT": "Latin American & Iberian Studies",
-        "FULL_NAME": "Mark Schafer",
-        "NAME_FIRST": "Mark",
-        "NAME_LAST": "Schafer",
-        "NUM_RATINGS": 22,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 11706.21,
-        "POSITION_TITLE": "Senior Lecturer",
-        "RATING": 3.6
-      },
-      {
         "ANNUAL_RATE": 14543.88,
         "DEPARTMENT": "Performing Arts",
         "FULL_NAME": "Randy McGee",
@@ -1492,30 +1193,6 @@ claGood = {
         "RATING": 4.2
       },
       {
-        "ANNUAL_RATE": 11000.0,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "Lisa Holmes",
-        "NAME_FIRST": "Lisa",
-        "NAME_LAST": "Holmes",
-        "NUM_RATINGS": 14,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 2524.66,
-        "POSITION_TITLE": "Associate Lecturer",
-        "RATING": 5.0
-      },
-      {
-        "ANNUAL_RATE": 55846.405,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "Gerard Horgan",
-        "NAME_FIRST": "Gerard",
-        "NAME_LAST": "Horgan",
-        "NUM_RATINGS": 48,
-        "PAY_OTHER_ACTUAL": 5500.0,
-        "PAY_TOTAL_ACTUAL": 18222.4,
-        "POSITION_TITLE": "Senior Lecturer",
-        "RATING": 5.0
-      },
-      {
         "ANNUAL_RATE": 69528.749,
         "DEPARTMENT": "English",
         "FULL_NAME": "Brendan Holloway",
@@ -1538,18 +1215,6 @@ claGood = {
         "PAY_TOTAL_ACTUAL": 19217.88,
         "POSITION_TITLE": "Senior Lecturer II",
         "RATING": 4.3
-      },
-      {
-        "ANNUAL_RATE": 110771.723,
-        "DEPARTMENT": "Latin American & Iberian Studies",
-        "FULL_NAME": "Nino Kebadze",
-        "NAME_FIRST": "Nino",
-        "NAME_LAST": "Kebadze",
-        "NUM_RATINGS": 13,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 13895.63,
-        "POSITION_TITLE": "Associate Professor",
-        "RATING": 4.6
       },
       {
         "ANNUAL_RATE": 129849.985,
@@ -1672,30 +1337,6 @@ claGood = {
         "RATING": 3.9
       },
       {
-        "ANNUAL_RATE": 51035.837,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "Karen Lischinsky",
-        "NAME_FIRST": "Karen",
-        "NAME_LAST": "Lischinsky",
-        "NUM_RATINGS": 22,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 11626.52,
-        "POSITION_TITLE": "Lecturer",
-        "RATING": 4.0
-      },
-      {
-        "ANNUAL_RATE": 75546.155,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "Courtney Feldscher",
-        "NAME_FIRST": "Courtney",
-        "NAME_LAST": "Feldscher",
-        "NUM_RATINGS": 61,
-        "PAY_OTHER_ACTUAL": 5500.0,
-        "PAY_TOTAL_ACTUAL": 22710.2,
-        "POSITION_TITLE": "Senior Lecturer",
-        "RATING": 4.8
-      },
-      {
         "ANNUAL_RATE": 64059.216,
         "DEPARTMENT": "Psychology",
         "FULL_NAME": "Margaret Vaughan",
@@ -1768,18 +1409,6 @@ claGood = {
         "RATING": 5.0
       },
       {
-        "ANNUAL_RATE": 60522.835,
-        "DEPARTMENT": "History",
-        "FULL_NAME": "Elizabeth McCahill",
-        "NAME_FIRST": "Elizabeth",
-        "NAME_LAST": "McCahill",
-        "NUM_RATINGS": 20,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 13787.76,
-        "POSITION_TITLE": "Associate Professor",
-        "RATING": 4.3
-      },
-      {
         "ANNUAL_RATE": 82208.301,
         "DEPARTMENT": "English",
         "FULL_NAME": "Nancy Finn",
@@ -1826,18 +1455,6 @@ claGood = {
         "PAY_TOTAL_ACTUAL": 13275.28,
         "POSITION_TITLE": "Senior Lecturer",
         "RATING": 5.0
-      },
-      {
-        "ANNUAL_RATE": 11447.359,
-        "DEPARTMENT": "History",
-        "FULL_NAME": "Judith Babbitts",
-        "NAME_FIRST": "Judith",
-        "NAME_LAST": "Babbitts",
-        "NUM_RATINGS": 3,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 2377.51,
-        "POSITION_TITLE": "Associate Lecturer",
-        "RATING": 3.9
       },
       {
         "ANNUAL_RATE": 75872.956,
@@ -1924,18 +1541,6 @@ claGood = {
         "RATING": 3.4
       },
       {
-        "ANNUAL_RATE": 11585.86,
-        "DEPARTMENT": "History",
-        "FULL_NAME": "Lisa Vox",
-        "NAME_FIRST": "Lisa",
-        "NAME_LAST": "Vox",
-        "NUM_RATINGS": 6,
-        "PAY_OTHER_ACTUAL": 5500.0,
-        "PAY_TOTAL_ACTUAL": 7906.34,
-        "POSITION_TITLE": "Associate Lecturer",
-        "RATING": 4.8
-      },
-      {
         "ANNUAL_RATE": 161719.702,
         "DEPARTMENT": "Psychology",
         "FULL_NAME": "Heidi Levitt",
@@ -1972,18 +1577,6 @@ claGood = {
         "RATING": 4.2
       },
       {
-        "ANNUAL_RATE": 98782.448,
-        "DEPARTMENT": "Latin American & Iberian Studies",
-        "FULL_NAME": "Susana Domingo Amestoy",
-        "NAME_FIRST": "Susana",
-        "NAME_LAST": "Domingo Amestoy",
-        "NUM_RATINGS": 20,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 22503.68,
-        "POSITION_TITLE": "Associate Professor",
-        "RATING": 4.8
-      },
-      {
         "ANNUAL_RATE": 83270.264,
         "DEPARTMENT": "English",
         "FULL_NAME": "LaMont Egle",
@@ -1994,30 +1587,6 @@ claGood = {
         "PAY_TOTAL_ACTUAL": 18969.84,
         "POSITION_TITLE": "Senior Lecturer II",
         "RATING": 3.8
-      },
-      {
-        "ANNUAL_RATE": 75579.869,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "Matthew Gregory",
-        "NAME_FIRST": "Matthew",
-        "NAME_LAST": "Gregory",
-        "NUM_RATINGS": 73,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 17217.92,
-        "POSITION_TITLE": "Senior Lecturer",
-        "RATING": 3.9
-      },
-      {
-        "ANNUAL_RATE": 110084.913,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "Cinzia Solari",
-        "NAME_FIRST": "Cinzia",
-        "NAME_LAST": "Solari",
-        "NUM_RATINGS": 14,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 25088.88,
-        "POSITION_TITLE": "Grad Prog Dir/Assoc Professor",
-        "RATING": 4.3
       },
       {
         "ANNUAL_RATE": 77772.724,
@@ -2042,18 +1611,6 @@ claGood = {
         "PAY_TOTAL_ACTUAL": 29919.24,
         "POSITION_TITLE": "Professor",
         "RATING": 4.6
-      },
-      {
-        "ANNUAL_RATE": 113339.428,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "Heather Zaykowski",
-        "NAME_FIRST": "Heather",
-        "NAME_LAST": "Zaykowski",
-        "NUM_RATINGS": 11,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 25819.88,
-        "POSITION_TITLE": "Associate Professor",
-        "RATING": 3.7
       },
       {
         "ANNUAL_RATE": 115135.507,
@@ -2104,18 +1661,6 @@ claGood = {
         "RATING": 5.0
       },
       {
-        "ANNUAL_RATE": 76479.77,
-        "DEPARTMENT": "Latin American & Iberian Studies",
-        "FULL_NAME": "Dora Alvarez",
-        "NAME_FIRST": "Dora",
-        "NAME_LAST": "Alvarez",
-        "NUM_RATINGS": 30,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 17422.88,
-        "POSITION_TITLE": "Senior Lecturer",
-        "RATING": 5.0
-      },
-      {
         "ANNUAL_RATE": 39889.823,
         "DEPARTMENT": "Modern Languages Lit",
         "FULL_NAME": "Abdelkrim Mouhib",
@@ -2140,30 +1685,6 @@ claGood = {
         "RATING": 4.2
       },
       {
-        "ANNUAL_RATE": 108534.383,
-        "DEPARTMENT": "History",
-        "FULL_NAME": "Benjamin Johnson",
-        "NAME_FIRST": "Benjamin",
-        "NAME_LAST": "Johnson",
-        "NUM_RATINGS": 16,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 24725.28,
-        "POSITION_TITLE": "Associate Professor",
-        "RATING": 3.4
-      },
-      {
-        "ANNUAL_RATE": 48762.934,
-        "DEPARTMENT": "History",
-        "FULL_NAME": "Camille Weiss",
-        "NAME_FIRST": "Camille",
-        "NAME_LAST": "Weiss",
-        "NUM_RATINGS": 15,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 7115.47,
-        "POSITION_TITLE": "Lecturer",
-        "RATING": 5.0
-      },
-      {
         "ANNUAL_RATE": 76382.329,
         "DEPARTMENT": "Philosophy",
         "FULL_NAME": "Andres Perez-Carrasco",
@@ -2186,18 +1707,6 @@ claGood = {
         "PAY_TOTAL_ACTUAL": 25532.0,
         "POSITION_TITLE": "Associate Professor",
         "RATING": 3.4
-      },
-      {
-        "ANNUAL_RATE": 113802.758,
-        "DEPARTMENT": "History",
-        "FULL_NAME": "Olivia Weisser",
-        "NAME_FIRST": "Olivia",
-        "NAME_LAST": "Weisser",
-        "NUM_RATINGS": 17,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 25935.8,
-        "POSITION_TITLE": "Grad Prog Dir/Assoc Professor",
-        "RATING": 4.8
       },
       {
         "ANNUAL_RATE": 107136.858,
@@ -2234,18 +1743,6 @@ claGood = {
         "PAY_TOTAL_ACTUAL": 27593.24,
         "POSITION_TITLE": "Associate Professor",
         "RATING": 4.6
-      },
-      {
-        "ANNUAL_RATE": 127056.779,
-        "DEPARTMENT": "History",
-        "FULL_NAME": "Sana Haroon",
-        "NAME_FIRST": "Sana",
-        "NAME_LAST": "Haroon",
-        "NUM_RATINGS": 20,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 28944.88,
-        "POSITION_TITLE": "Professor",
-        "RATING": 3.5
       },
       {
         "ANNUAL_RATE": 111410.437,
@@ -2332,18 +1829,6 @@ claGood = {
         "RATING": 3.5
       },
       {
-        "ANNUAL_RATE": 74718.572,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "Daniel Finn",
-        "NAME_FIRST": "Daniel",
-        "NAME_LAST": "Finn",
-        "NUM_RATINGS": 29,
-        "PAY_OTHER_ACTUAL": 2694.76,
-        "PAY_TOTAL_ACTUAL": 19716.48,
-        "POSITION_TITLE": "Senior Lecturer",
-        "RATING": 4.9
-      },
-      {
         "ANNUAL_RATE": 93007.209,
         "DEPARTMENT": "Psychology",
         "FULL_NAME": "Tracey Rogers",
@@ -2354,42 +1839,6 @@ claGood = {
         "PAY_TOTAL_ACTUAL": 21188.04,
         "POSITION_TITLE": "Senior Lecturer",
         "RATING": 4.3
-      },
-      {
-        "ANNUAL_RATE": 63405.177,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "Linda Liu",
-        "NAME_FIRST": "Linda",
-        "NAME_LAST": "Liu",
-        "NUM_RATINGS": 8,
-        "PAY_OTHER_ACTUAL": 1296.05,
-        "PAY_TOTAL_ACTUAL": 15740.41,
-        "POSITION_TITLE": "Lecturer",
-        "RATING": 4.5
-      },
-      {
-        "ANNUAL_RATE": 33112.065,
-        "DEPARTMENT": "Applied Linguistics",
-        "FULL_NAME": "Georgios Mikros",
-        "NAME_FIRST": "Georgios",
-        "NAME_LAST": "Mikros",
-        "NUM_RATINGS": 1,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 6779.16,
-        "POSITION_TITLE": "Lecturer",
-        "RATING": 4.0
-      },
-      {
-        "ANNUAL_RATE": 15919.262,
-        "DEPARTMENT": "Applied Linguistics",
-        "FULL_NAME": "Georgios Mikros",
-        "NAME_FIRST": "Georgios",
-        "NAME_LAST": "Mikros",
-        "NUM_RATINGS": 1,
-        "PAY_OTHER_ACTUAL": 280.0,
-        "PAY_TOTAL_ACTUAL": 2422.98,
-        "POSITION_TITLE": "Lecturer",
-        "RATING": 4.0
       },
       {
         "ANNUAL_RATE": 107504.842,
@@ -2452,30 +1901,6 @@ claGood = {
         "RATING": 5.0
       },
       {
-        "ANNUAL_RATE": 50965.67,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "John Passmore",
-        "NAME_FIRST": "John",
-        "NAME_LAST": "Passmore",
-        "NUM_RATINGS": 12,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 15088.64,
-        "POSITION_TITLE": "Lecturer",
-        "RATING": 3.6
-      },
-      {
-        "ANNUAL_RATE": 22000.0,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "Paul DeFazio",
-        "NAME_FIRST": "Paul",
-        "NAME_LAST": "DeFazio",
-        "NUM_RATINGS": 39,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 4952.33,
-        "POSITION_TITLE": "Associate Lecturer",
-        "RATING": 5.0
-      },
-      {
         "ANNUAL_RATE": 115891.727,
         "DEPARTMENT": "Economics",
         "FULL_NAME": "Dania Francis",
@@ -2498,18 +1923,6 @@ claGood = {
         "PAY_TOTAL_ACTUAL": 13555.48,
         "POSITION_TITLE": "Lecturer",
         "RATING": 4.9
-      },
-      {
-        "ANNUAL_RATE": 42993.6,
-        "DEPARTMENT": "Africana Studies",
-        "FULL_NAME": "Suzanne Morris",
-        "NAME_FIRST": "Suzanne",
-        "NAME_LAST": "Morris",
-        "NUM_RATINGS": 9,
-        "PAY_OTHER_ACTUAL": 5500.0,
-        "PAY_TOTAL_ACTUAL": 18228.48,
-        "POSITION_TITLE": "Lecturer",
-        "RATING": 4.4
       },
       {
         "ANNUAL_RATE": 57324.8,
@@ -2546,18 +1959,6 @@ claGood = {
         "PAY_TOTAL_ACTUAL": 1174.74,
         "POSITION_TITLE": "Assoc Lecturer A",
         "RATING": 4.0
-      },
-      {
-        "ANNUAL_RATE": 108972.508,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "Elizabeth Brown",
-        "NAME_FIRST": "Elizabeth",
-        "NAME_LAST": "Brown",
-        "NUM_RATINGS": 21,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 24834.0,
-        "POSITION_TITLE": "Grad Prog Dir/Assoc Professor",
-        "RATING": 5.0
       },
       {
         "ANNUAL_RATE": 100552.255,
@@ -2632,18 +2033,6 @@ claGood = {
         "RATING": 4.1
       },
       {
-        "ANNUAL_RATE": 109472.147,
-        "DEPARTMENT": "Asian Studies",
-        "FULL_NAME": "Ayesha Irani",
-        "NAME_FIRST": "Ayesha",
-        "NAME_LAST": "Irani",
-        "NUM_RATINGS": 14,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 24938.88,
-        "POSITION_TITLE": "Associate Professor",
-        "RATING": 4.8
-      },
-      {
         "ANNUAL_RATE": 105356.731,
         "DEPARTMENT": "English",
         "FULL_NAME": "Lauren Bowen",
@@ -2704,18 +2093,6 @@ claGood = {
         "RATING": 5.0
       },
       {
-        "ANNUAL_RATE": 22000.0,
-        "DEPARTMENT": "History",
-        "FULL_NAME": "Frederick Dalzell",
-        "NAME_FIRST": "Frederick",
-        "NAME_LAST": "Dalzell",
-        "NUM_RATINGS": 15,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 7915.33,
-        "POSITION_TITLE": "Associate Lecturer",
-        "RATING": 4.1
-      },
-      {
         "ANNUAL_RATE": 11000.0,
         "DEPARTMENT": "Anthropology",
         "FULL_NAME": "Aisling Kearns",
@@ -2728,18 +2105,6 @@ claGood = {
         "RATING": 4.0
       },
       {
-        "ANNUAL_RATE": 107970.947,
-        "DEPARTMENT": "Applied Linguistics",
-        "FULL_NAME": "Christian Chun",
-        "NAME_FIRST": "Christian",
-        "NAME_LAST": "Chun",
-        "NUM_RATINGS": 1,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 24596.88,
-        "POSITION_TITLE": "Associate Professor",
-        "RATING": 5.0
-      },
-      {
         "ANNUAL_RATE": 104303.464,
         "DEPARTMENT": "Communications",
         "FULL_NAME": "Sun-Young Park",
@@ -2750,30 +2115,6 @@ claGood = {
         "PAY_TOTAL_ACTUAL": 23761.48,
         "POSITION_TITLE": "Associate Professor",
         "RATING": 5.0
-      },
-      {
-        "ANNUAL_RATE": 95617.77,
-        "DEPARTMENT": "Latin American & Iberian Studies",
-        "FULL_NAME": "Isabel Gomez",
-        "NAME_FIRST": "Isabel",
-        "NAME_LAST": "Gomez",
-        "NUM_RATINGS": 8,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 21782.72,
-        "POSITION_TITLE": "Associate Professor",
-        "RATING": 4.6
-      },
-      {
-        "ANNUAL_RATE": 110558.988,
-        "DEPARTMENT": "Latin American & Iberian Studies",
-        "FULL_NAME": "Susan Gauss",
-        "NAME_FIRST": "Susan",
-        "NAME_LAST": "Gauss",
-        "NUM_RATINGS": 5,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 25186.48,
-        "POSITION_TITLE": "Associate Professor",
-        "RATING": 4.2
       },
       {
         "ANNUAL_RATE": 48078.54,
@@ -2810,18 +2151,6 @@ claGood = {
         "PAY_TOTAL_ACTUAL": 4952.33,
         "POSITION_TITLE": "Associate Lecturer",
         "RATING": 5.0
-      },
-      {
-        "ANNUAL_RATE": 69655.04,
-        "DEPARTMENT": "Africana Studies",
-        "FULL_NAME": "Keith Jones",
-        "NAME_FIRST": "Keith",
-        "NAME_LAST": "Jones",
-        "NUM_RATINGS": 22,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 15868.16,
-        "POSITION_TITLE": "Lecturer",
-        "RATING": 4.9
       },
       {
         "ANNUAL_RATE": 58515.425,
@@ -2906,18 +2235,6 @@ claGood = {
         "PAY_TOTAL_ACTUAL": 29235.68,
         "POSITION_TITLE": "Associate Professor",
         "RATING": 4.6
-      },
-      {
-        "ANNUAL_RATE": 84002.003,
-        "DEPARTMENT": "History",
-        "FULL_NAME": "Maria John",
-        "NAME_FIRST": "Maria",
-        "NAME_LAST": "John",
-        "NUM_RATINGS": 4,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 19136.52,
-        "POSITION_TITLE": "Assistant Professor",
-        "RATING": 5.0
       },
       {
         "ANNUAL_RATE": 42800.0,
@@ -3052,18 +2369,6 @@ claGood = {
         "RATING": 5.0
       },
       {
-        "ANNUAL_RATE": 55120.0,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "Karla Odenwald",
-        "NAME_FIRST": "Karla",
-        "NAME_LAST": "Odenwald",
-        "NUM_RATINGS": 8,
-        "PAY_OTHER_ACTUAL": 1945.43,
-        "PAY_TOTAL_ACTUAL": 14502.35,
-        "POSITION_TITLE": "Lecturer",
-        "RATING": 4.6
-      },
-      {
         "ANNUAL_RATE": 11000.0,
         "DEPARTMENT": "American Studies",
         "FULL_NAME": "Leslie Brown",
@@ -3074,42 +2379,6 @@ claGood = {
         "PAY_TOTAL_ACTUAL": 1538.4,
         "POSITION_TITLE": "Associate Lecturer",
         "RATING": 4.0
-      },
-      {
-        "ANNUAL_RATE": 91079.04,
-        "DEPARTMENT": "Applied Linguistics",
-        "FULL_NAME": "Jennifer Sclafani",
-        "NAME_FIRST": "Jennifer",
-        "NAME_LAST": "Sclafani",
-        "NUM_RATINGS": 3,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 20748.76,
-        "POSITION_TITLE": "Assistant Professor",
-        "RATING": 3.2
-      },
-      {
-        "ANNUAL_RATE": 83047.169,
-        "DEPARTMENT": "History",
-        "FULL_NAME": "Nicholas Juravich",
-        "NAME_FIRST": "Nicholas",
-        "NAME_LAST": "Juravich",
-        "NUM_RATINGS": 10,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 18919.04,
-        "POSITION_TITLE": "Assistant Professor",
-        "RATING": 5.0
-      },
-      {
-        "ANNUAL_RATE": 84200.552,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "Evan Stewart",
-        "NAME_FIRST": "Evan",
-        "NAME_LAST": "Stewart",
-        "NUM_RATINGS": 3,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 19181.76,
-        "POSITION_TITLE": "Assistant Professor",
-        "RATING": 5.0
       },
       {
         "ANNUAL_RATE": 65745.525,
@@ -3244,18 +2513,6 @@ claGood = {
         "RATING": 5.0
       },
       {
-        "ANNUAL_RATE": 10700.0,
-        "DEPARTMENT": "History",
-        "FULL_NAME": "Kristen Che",
-        "NAME_FIRST": "Kristen",
-        "NAME_LAST": "Che",
-        "NUM_RATINGS": 26,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 2222.32,
-        "POSITION_TITLE": "Associate Lecturer",
-        "RATING": 4.3
-      },
-      {
         "ANNUAL_RATE": 44000.0,
         "DEPARTMENT": "English",
         "FULL_NAME": "Alexander Hill",
@@ -3278,30 +2535,6 @@ claGood = {
         "PAY_TOTAL_ACTUAL": 9904.64,
         "POSITION_TITLE": "Associate Lecturer",
         "RATING": 4.8
-      },
-      {
-        "ANNUAL_RATE": 82742.418,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "Christopher Contreras",
-        "NAME_FIRST": "Christopher",
-        "NAME_LAST": "Contreras",
-        "NUM_RATINGS": 6,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 18849.6,
-        "POSITION_TITLE": "Assistant Professor",
-        "RATING": 5.0
-      },
-      {
-        "ANNUAL_RATE": 73916.544,
-        "DEPARTMENT": "Latin American & Iberian Studies",
-        "FULL_NAME": "Simone de Lemos",
-        "NAME_FIRST": "Simone",
-        "NAME_LAST": "de Lemos",
-        "NUM_RATINGS": 1,
-        "PAY_OTHER_ACTUAL": 1680.0,
-        "PAY_TOTAL_ACTUAL": 18518.96,
-        "POSITION_TITLE": "Lecturer",
-        "RATING": 5.0
       },
       {
         "ANNUAL_RATE": 88258.56,
@@ -3364,18 +2597,6 @@ claGood = {
         "RATING": 5.0
       },
       {
-        "ANNUAL_RATE": 82742.4,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "Andrew Nevin",
-        "NAME_FIRST": "Andrew",
-        "NAME_LAST": "Nevin",
-        "NUM_RATINGS": 2,
-        "PAY_OTHER_ACTUAL": 1000.0,
-        "PAY_TOTAL_ACTUAL": 19849.6,
-        "POSITION_TITLE": "Assistant Professor",
-        "RATING": 4.5
-      },
-      {
         "ANNUAL_RATE": 11000.0,
         "DEPARTMENT": "Modern Languages Lit",
         "FULL_NAME": "Stephanie Inverso",
@@ -3386,18 +2607,6 @@ claGood = {
         "PAY_TOTAL_ACTUAL": 1480.78,
         "POSITION_TITLE": "Associate Lecturer",
         "RATING": 5.0
-      },
-      {
-        "ANNUAL_RATE": 32400.0,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "Jon Dzitko",
-        "NAME_FIRST": "Jon",
-        "NAME_LAST": "Dzitko",
-        "NUM_RATINGS": 2,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 5925.4,
-        "POSITION_TITLE": "Associate Lecturer",
-        "RATING": 4.5
       },
       {
         "ANNUAL_RATE": 11000.0,
@@ -3484,42 +2693,6 @@ claGood = {
         "RATING": 3.1
       },
       {
-        "ANNUAL_RATE": 10700.0,
-        "DEPARTMENT": "History",
-        "FULL_NAME": "Nicole Richards",
-        "NAME_FIRST": "Nicole",
-        "NAME_LAST": "Richards",
-        "NUM_RATINGS": 28,
-        "PAY_OTHER_ACTUAL": 5500.0,
-        "PAY_TOTAL_ACTUAL": 7722.32,
-        "POSITION_TITLE": "Associate Lecturer",
-        "RATING": 3.2
-      },
-      {
-        "ANNUAL_RATE": 10700.0,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "Angela Murolo",
-        "NAME_FIRST": "Angela",
-        "NAME_LAST": "Murolo",
-        "NUM_RATINGS": 5,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 2222.31,
-        "POSITION_TITLE": "Associate Lecturer",
-        "RATING": 5.0
-      },
-      {
-        "ANNUAL_RATE": 33000.0,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "Angela Murolo",
-        "NAME_FIRST": "Angela",
-        "NAME_LAST": "Murolo",
-        "NUM_RATINGS": 5,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 4442.34,
-        "POSITION_TITLE": "Associate Lecturer",
-        "RATING": 5.0
-      },
-      {
         "ANNUAL_RATE": 88400.0,
         "DEPARTMENT": "English",
         "FULL_NAME": "Eileen Pollack",
@@ -3530,18 +2703,6 @@ claGood = {
         "PAY_TOTAL_ACTUAL": 20138.48,
         "POSITION_TITLE": "Visiting Assistant Professor",
         "RATING": 3.7
-      },
-      {
-        "ANNUAL_RATE": 81640.0,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "Karen Okigbo",
-        "NAME_FIRST": "Karen",
-        "NAME_LAST": "Okigbo",
-        "NUM_RATINGS": 2,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 18598.48,
-        "POSITION_TITLE": "Assistant Professor",
-        "RATING": 4.8
       },
       {
         "ANNUAL_RATE": 64480.0,
@@ -3617,18 +2778,6 @@ claGood = {
       },
       {
         "ANNUAL_RATE": 21400.0,
-        "DEPARTMENT": "Applied Linguistics",
-        "FULL_NAME": "Grace Buker",
-        "NAME_FIRST": "Grace",
-        "NAME_LAST": "Buker",
-        "NUM_RATINGS": 4,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 4444.62,
-        "POSITION_TITLE": "Associate Lecturer",
-        "RATING": 4.5
-      },
-      {
-        "ANNUAL_RATE": 21400.0,
         "DEPARTMENT": "Communications",
         "FULL_NAME": "Charles Daniel",
         "NAME_FIRST": "Charles",
@@ -3638,18 +2787,6 @@ claGood = {
         "PAY_TOTAL_ACTUAL": 10444.62,
         "POSITION_TITLE": "Associate Lecturer",
         "RATING": 4.8
-      },
-      {
-        "ANNUAL_RATE": 4894.118,
-        "DEPARTMENT": "Applied Linguistics",
-        "FULL_NAME": "Jocelyn Lee",
-        "NAME_FIRST": "Jocelyn",
-        "NAME_LAST": "Lee",
-        "NUM_RATINGS": 4,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 658.84,
-        "POSITION_TITLE": "Assoc Lecturer A",
-        "RATING": 4.7
       }
     ]
   },
@@ -3658,18 +2795,24 @@ claGood = {
       "field": "DEPARTMENT",
       "type": "nominal",
       "axis": {
-        "title": "Department",
-        "labelFontSize": 10,
-        "labelAngle": 0
+        "title": "",
+        "labelFontSize": 20,
+        "labelAngle": -30,
+        "labelFontWeight": "bold",
       }
     },
     "y": {
       "aggregate": "mean",
       "field": "ANNUAL_RATE",
       "type": "quantitative",
+      "scale": {
+        "domain": [0, 120000]
+      },
       "axis": {
-        "title": "Average Annual Rate (in dollars $)",
-        "labelFontSize": 10
+        "title": "",
+        "labelFontSize": 20,
+        "grid": false,
+        "tickCount": 5
       }
     },
     "color": {
@@ -3686,32 +2829,33 @@ claGood = {
       {
         "field": "DEPARTMENT",  
         "title": "Department"
-      },
-    ],
-  },
+      }
+    ]
+  },  
   "mark": {
     "type": "bar",
-    "size": 70
+    "size": 40
   }
 }
   
 claBad = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json",
-  "height": 500,
+  "height": 600,
   "width": {
-    "step": 131
+    "step": 60
   },
   "config": {
+    "background": "#f8ead8",
     "view": {
       "continuousHeight": 300,
       "continuousWidth": 300
     }
   },
   "data": {
-    "name": "data-819c67a33b0b95254e52128d33d52fed"
+    "name": "data-1c64858a9798ea8927c70178d7d200a4"
   },
   "datasets": {
-    "data-819c67a33b0b95254e52128d33d52fed": [
+    "data-1c64858a9798ea8927c70178d7d200a4": [
       {
         "ANNUAL_RATE": 80928.905,
         "DEPARTMENT": "Modern Languages Lit",
@@ -3758,18 +2902,6 @@ claBad = {
         "PAY_OTHER_ACTUAL": 6100.0,
         "PAY_TOTAL_ACTUAL": 26865.24,
         "POSITION_TITLE": "Senior Lecturer III",
-        "RATING": 2.8
-      },
-      {
-        "ANNUAL_RATE": 15889.12,
-        "DEPARTMENT": "History",
-        "FULL_NAME": "Spencer Di Scala",
-        "NAME_FIRST": "Spencer",
-        "NAME_LAST": "Di Scala",
-        "NUM_RATINGS": 17,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 2138.92,
-        "POSITION_TITLE": "Assoc Lecturer A",
         "RATING": 2.8
       },
       {
@@ -3821,18 +2953,6 @@ claBad = {
         "RATING": 2.8
       },
       {
-        "ANNUAL_RATE": 21400.0,
-        "DEPARTMENT": "History",
-        "FULL_NAME": "Kevin Murphy",
-        "NAME_FIRST": "Kevin",
-        "NAME_LAST": "Murphy",
-        "NUM_RATINGS": 6,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 4444.62,
-        "POSITION_TITLE": "Associate Lecturer",
-        "RATING": 2.3
-      },
-      {
         "ANNUAL_RATE": 39633.36,
         "DEPARTMENT": "Philosophy",
         "FULL_NAME": "Peter Marton",
@@ -3842,18 +2962,6 @@ claBad = {
         "PAY_OTHER_ACTUAL": 0.0,
         "PAY_TOTAL_ACTUAL": 2560.65,
         "POSITION_TITLE": "Associate Lecturer",
-        "RATING": 1.8
-      },
-      {
-        "ANNUAL_RATE": 46122.117,
-        "DEPARTMENT": "Latin American & Iberian Studies",
-        "FULL_NAME": "Patricia Chouinard",
-        "NAME_FIRST": "Patricia",
-        "NAME_LAST": "Chouinard",
-        "NUM_RATINGS": 10,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 10507.08,
-        "POSITION_TITLE": "Senior Lecturer II",
         "RATING": 1.8
       },
       {
@@ -3917,18 +3025,6 @@ claBad = {
         "RATING": 2.0
       },
       {
-        "ANNUAL_RATE": 10700.0,
-        "DEPARTMENT": "History",
-        "FULL_NAME": "Matteo Casini",
-        "NAME_FIRST": "Matteo",
-        "NAME_LAST": "Casini",
-        "NUM_RATINGS": 27,
-        "PAY_OTHER_ACTUAL": 5500.0,
-        "PAY_TOTAL_ACTUAL": 7722.32,
-        "POSITION_TITLE": "Associate Lecturer",
-        "RATING": 2.3
-      },
-      {
         "ANNUAL_RATE": 79678.199,
         "DEPARTMENT": "American Studies",
         "FULL_NAME": "Joseph Ramsey",
@@ -3951,18 +3047,6 @@ claBad = {
         "PAY_TOTAL_ACTUAL": 7956.96,
         "POSITION_TITLE": "Associate Lecturer",
         "RATING": 2.9
-      },
-      {
-        "ANNUAL_RATE": 58204.452,
-        "DEPARTMENT": "Applied Linguistics",
-        "FULL_NAME": "Katherine Kiss",
-        "NAME_FIRST": "Katherine",
-        "NAME_LAST": "Kiss",
-        "NUM_RATINGS": 10,
-        "PAY_OTHER_ACTUAL": 280.0,
-        "PAY_TOTAL_ACTUAL": 13539.64,
-        "POSITION_TITLE": "Senior Lecturer",
-        "RATING": 2.8
       },
       {
         "ANNUAL_RATE": 91561.872,
@@ -4009,18 +3093,6 @@ claBad = {
         "NUM_RATINGS": 3,
         "PAY_OTHER_ACTUAL": 5500.0,
         "PAY_TOTAL_ACTUAL": 19760.55,
-        "POSITION_TITLE": "Lecturer",
-        "RATING": 2.0
-      },
-      {
-        "ANNUAL_RATE": 66190.265,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "Jyoti Sinha",
-        "NAME_FIRST": "Jyoti",
-        "NAME_LAST": "Sinha",
-        "NUM_RATINGS": 21,
-        "PAY_OTHER_ACTUAL": 159.39,
-        "PAY_TOTAL_ACTUAL": 15238.23,
         "POSITION_TITLE": "Lecturer",
         "RATING": 2.0
       },
@@ -4073,18 +3145,6 @@ claBad = {
         "RATING": 2.8
       },
       {
-        "ANNUAL_RATE": 28662.4,
-        "DEPARTMENT": "Africana Studies",
-        "FULL_NAME": "Patrick King",
-        "NAME_FIRST": "Patrick",
-        "NAME_LAST": "King",
-        "NUM_RATINGS": 9,
-        "PAY_OTHER_ACTUAL": 5500.0,
-        "PAY_TOTAL_ACTUAL": 17897.76,
-        "POSITION_TITLE": "Lecturer",
-        "RATING": 1.8
-      },
-      {
         "ANNUAL_RATE": 76960.0,
         "DEPARTMENT": "Modern Languages Lit",
         "FULL_NAME": "Rania Said",
@@ -4109,18 +3169,6 @@ claBad = {
         "RATING": 2.8
       },
       {
-        "ANNUAL_RATE": 86052.096,
-        "DEPARTMENT": "History",
-        "FULL_NAME": "Kelly Colvin",
-        "NAME_FIRST": "Kelly",
-        "NAME_LAST": "Colvin",
-        "NUM_RATINGS": 14,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 19603.6,
-        "POSITION_TITLE": "Assistant Professor",
-        "RATING": 2.4
-      },
-      {
         "ANNUAL_RATE": 97344.0,
         "DEPARTMENT": "Economics",
         "FULL_NAME": "Ilaria D'Angelis",
@@ -4131,18 +3179,6 @@ claBad = {
         "PAY_TOTAL_ACTUAL": 22176.0,
         "POSITION_TITLE": "Assistant Professor",
         "RATING": 2.4
-      },
-      {
-        "ANNUAL_RATE": 21400.0,
-        "DEPARTMENT": "Sociology",
-        "FULL_NAME": "Scott Taylor",
-        "NAME_FIRST": "Scott",
-        "NAME_LAST": "Taylor",
-        "NUM_RATINGS": 4,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 4444.62,
-        "POSITION_TITLE": "Associate Lecturer",
-        "RATING": 2.9
       },
       {
         "ANNUAL_RATE": 77875.2,
@@ -4167,18 +3203,6 @@ claBad = {
         "PAY_TOTAL_ACTUAL": 9650.8,
         "POSITION_TITLE": "Associate Lecturer",
         "RATING": 2.8
-      },
-      {
-        "ANNUAL_RATE": 10700.0,
-        "DEPARTMENT": "Asian Studies",
-        "FULL_NAME": "Emily Lu",
-        "NAME_FIRST": "Emily",
-        "NAME_LAST": "Lu",
-        "NUM_RATINGS": 19,
-        "PAY_OTHER_ACTUAL": 0.0,
-        "PAY_TOTAL_ACTUAL": 2222.3,
-        "POSITION_TITLE": "Associate Lecturer",
-        "RATING": 2.9
       }
     ]
   },
@@ -4187,18 +3211,24 @@ claBad = {
       "field": "DEPARTMENT",
       "type": "nominal",
       "axis": {
-        "title": "Department",
-        "labelFontSize": 10,
-        "labelAngle": 0
-      }
+        "title": "",
+        "labelFontSize": 20,
+        "labelAngle": -30,
+        "labelFontWeight": "bold",
+      },
     },
     "y": {
       "aggregate": "mean",
       "field": "ANNUAL_RATE",
       "type": "quantitative",
+      "scale": {
+        "domain": [0, 120000]
+      },
       "axis": {
-        "title": "Average Annual Rate (in dollars $)",
-        "labelFontSize": 10
+        "title": "",
+        "labelFontSize": 20,
+        "grid": false,
+        "tickCount": 5
       }
     },
     "color": {
@@ -4220,9 +3250,9 @@ claBad = {
   },
   "mark": {
     "type": "bar",
-    "size": 70
+    "size": 40
   }
 }
 
-vegaEmbed('#cla-graph-good', claGood, {"actions": false});
-vegaEmbed('#cla-graph-bad', claBad, {"actions": false});
+vegaEmbed('#cla-graph-good', claGood, {"actions": false, "renderer": "svg"});
+vegaEmbed('#cla-graph-bad', claBad, {"actions": false, "renderer": "svg"});
