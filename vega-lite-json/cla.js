@@ -1,8 +1,8 @@
 claGood = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json",
-  "height": 600,
+  "height": 400,
   "width": {
-    "step": 60
+    "step": 40
   },
   "config": {
     "background": "#f8ead8",
@@ -2796,7 +2796,7 @@ claGood = {
       "type": "nominal",
       "axis": {
         "title": "",
-        "labelFontSize": 20,
+        "labelFontSize": 18,
         "labelAngle": -30,
         "labelFontWeight": "bold",
       }
@@ -2810,7 +2810,8 @@ claGood = {
       },
       "axis": {
         "title": "",
-        "labelFontSize": 20,
+        "labelFontSize": 18,
+        "labelFontWeight": "bold",
         "grid": false,
         "tickCount": 5
       }
@@ -2834,15 +2835,15 @@ claGood = {
   },  
   "mark": {
     "type": "bar",
-    "size": 40
+    "size": 30
   }
 }
   
 claBad = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json",
-  "height": 600,
+  "height": 400,
   "width": {
-    "step": 60
+    "step": 40
   },
   "config": {
     "background": "#f8ead8",
@@ -3227,12 +3228,13 @@ claBad = {
       "axis": {
         "title": "",
         "labelFontSize": 20,
+        "labelFontWeight": "bold",
         "grid": false,
         "tickCount": 5
       }
     },
     "color": {
-      "value": "darkred"
+      "value": "red"
     },
     "tooltip": [
       {"content": "encoding"},
@@ -3250,7 +3252,7 @@ claBad = {
   },
   "mark": {
     "type": "bar",
-    "size": 40
+    "size": 30
   }
 }
 

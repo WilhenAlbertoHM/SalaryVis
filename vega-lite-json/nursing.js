@@ -1135,7 +1135,7 @@ nursingBad = {
       }
     },
     "color": {
-      "value": "darkred"
+      "value": "red"
     },
     "tooltip": [
       {"content": "encoding"},

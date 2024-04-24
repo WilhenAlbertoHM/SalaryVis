@@ -1048,7 +1048,7 @@ csmBad = {
       }
     },
     "color": {
-      "value": "darkred"
+      "value": "red"
     },
     "tooltip": [
       {"content": "encoding"},

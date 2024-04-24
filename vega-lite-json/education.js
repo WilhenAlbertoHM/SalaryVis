@@ -1,8 +1,8 @@
 eduGood = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json",
-  "height": 500,
+  "height": 400,
   "width": {
-    "step": 300
+    "step": 100
   },
   "config": {
     "background": "#f8ead8",
@@ -469,9 +469,9 @@ eduGood = {
       "axis": {
         "title": "",
         "labelFontSize": 20,
-        "labelAngle": 0,
+        "labelAngle": -30,
         "labelFontWeight": "bold",
-        "labelLimit": 300,
+        "labelLimit": 200,
       }
     },
     "y": {
@@ -484,6 +484,7 @@ eduGood = {
       "axis": {
         "title": "",
         "labelFontSize": 20,
+        "labelFontWeight": "bold",
         "grid": false
       }
     },
@@ -506,15 +507,15 @@ eduGood = {
   },
   "mark": {
     "type": "bar",
-    "size": 80
+    "size": 40
   }
 }
   
 eduBad = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json",
-  "height": 500,
+  "height": 400,
   "width": {
-    "step": 300
+    "step": 100
   },
   "config": {
     "background": "#f8ead8",
@@ -609,9 +610,9 @@ eduBad = {
       "axis": {
         "title": "",
         "labelFontSize": 20,
-        "labelAngle": 0,
+        "labelAngle": -30,
         "labelFontWeight": "bold",
-        "labelLimit": 300,
+        "labelLimit": 200,
       }
     },
     "y": {
@@ -624,11 +625,12 @@ eduBad = {
       "axis": {
         "title": "",
         "labelFontSize": 20,
+        "labelFontWeight": "bold",
         "grid": false
       }
     },
     "color": {
-      "value": "darkred"
+      "value": "red"
     },
     "tooltip": [
       {"content": "encoding"},
@@ -646,7 +648,7 @@ eduBad = {
   },
   "mark": {
     "type": "bar",
-    "size": 80
+    "size": 40
   }
 }
 

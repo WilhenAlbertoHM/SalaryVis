@@ -1,8 +1,8 @@
 managementGood = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json",
-  "height": 600,
+  "height": 400,
   "width": {
-    "step": 200
+    "step": 50
   },
   "config": {
     "background": "#f8ead8",
@@ -769,7 +769,7 @@ managementGood = {
       "axis": {
         "title": "",
         "labelFontSize": 18,
-        "labelAngle": 0,
+        "labelAngle": -30,
         "labelFontWeight": "bold",
         "labelLimit": 250,
       }
@@ -808,15 +808,15 @@ managementGood = {
   },
   "mark": {
     "type": "bar",
-    "size": 80
+    "size": 40
   }
 }
   
 managementBad = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json",
-  "height": 600,
+  "height": 400,
   "width": {
-    "step": 200
+    "step": 50
   },
   "config": {
     "background": "#f8ead8",
@@ -996,7 +996,7 @@ managementBad = {
         "title": "",
         "labelFontSize": 18,
         "labelFontWeight": "bold",
-        "labelAngle": 0,
+        "labelAngle": -30,
         "labelLimit": 250
       }
     },
@@ -1016,7 +1016,7 @@ managementBad = {
       }
     },
     "color": {
-      "value": "darkred"
+      "value": "red"
     },
     "tooltip": [
       {"content": "encoding"},
@@ -1034,7 +1034,7 @@ managementBad = {
   },
   "mark": {
     "type": "bar",
-    "size": 80
+    "size": 40
   }
 }
 

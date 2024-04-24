@@ -50,10 +50,16 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .info {
-    color: var(--brown);
-    padding: 1em;
+    color: white;
+    background-color: var(--brown);
+    margin: 5em;
+    border-radius: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 5em;
+    padding-right: 5em;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .cla, .csm, .management, .nursing, .environment, .education {
