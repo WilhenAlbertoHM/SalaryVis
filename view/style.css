@@ -52,12 +52,9 @@ body::-webkit-scrollbar-thumb:hover {
 .info {
     color: white;
     background-color: var(--brown);
-    margin: 5em;
+    margin: 5em 10em 3em;
     border-radius: 2em;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    padding-left: 5em;
-    padding-right: 5em;
+    padding: 2em;
     text-align: center;
     font-size: 1.5em;
 }
