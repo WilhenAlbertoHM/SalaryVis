@@ -64,6 +64,11 @@ body::-webkit-scrollbar-thumb:hover {
     justify-content: center;
     align-items: center;
     overflow: auto;
+    padding-bottom: 20em;
+}
+
+.cla {
+    padding-bottom: 5em;
 }
 
 .text {

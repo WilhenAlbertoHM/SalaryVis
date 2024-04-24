@@ -1,24 +1,17 @@
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.to("", {opacity: 1, duration: 0});
-gsap.utils.toArray(".scroll").forEach((panel, i, panels) => {
-    ScrollTrigger.create({
-        trigger: panel,
-        start: "top top",
-        end: "+=50%",
-        onEnter: function() {
-            gsap.to(panel, {opacity: 1, duration: 1});
-            paths = panel.querySelectorAll(".svg");
-            console.log(paths);
-            for (var i = 0; i < paths.length; i++) {
-                p = paths[i];
-                clonedP = p.cloneNode();
-                parentElement = p.parentElement;
-                parentElement.removeChild(p);
-                parentElement.appendChild(clonedP);
-            }
+// Fade in each section as it comes into view
+gsap.utils.toArray(".subtitles, .management, .education, .csm, .nursing, .environment, .cla, .text, .info").forEach((section) => {
+    gsap.from(section, {
+        opacity: 0,
+        y: 50,
+        duration: 1,
+        scrollTrigger: {
+            trigger: section,
+            start: "top 60%",
+            end: "bottom 20%",
+            toggleActions: "play none none reverse",
+            markers: false
         },
-        onLeaveBack: () => gsap.to(panel, {opacity: 0, duration: 1}),
-        markers: false,
     });
 });
