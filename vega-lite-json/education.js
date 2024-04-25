@@ -485,7 +485,8 @@ eduGood = {
         "title": "",
         "labelFontSize": 20,
         "labelFontWeight": "bold",
-        "grid": false
+        "grid": false,
+        "format": "$,.0f"
       }
     },
     "color": {
@@ -626,7 +627,8 @@ eduBad = {
         "title": "",
         "labelFontSize": 20,
         "labelFontWeight": "bold",
-        "grid": false
+        "grid": false,
+        "format": "$,.0f"
       }
     },
     "color": {

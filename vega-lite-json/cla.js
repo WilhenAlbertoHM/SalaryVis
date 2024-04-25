@@ -2813,7 +2813,8 @@ claGood = {
         "labelFontSize": 18,
         "labelFontWeight": "bold",
         "grid": false,
-        "tickCount": 5
+        "tickCount": 5,
+        "format": "$,.0f"
       }
     },
     "color": {
@@ -3230,7 +3231,8 @@ claBad = {
         "labelFontSize": 20,
         "labelFontWeight": "bold",
         "grid": false,
-        "tickCount": 5
+        "tickCount": 5,
+        "format": "$,.0f"
       }
     },
     "color": {

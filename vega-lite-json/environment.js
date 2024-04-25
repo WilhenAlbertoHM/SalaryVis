@@ -90,7 +90,8 @@ envGood = {
         "labelFontSize": 20,
         "labelFontWeight": "bold",
         "tickCount": 6,
-        "grid": false
+        "grid": false,
+        "format": "$,.0f"
       }
     },
     "color": {
@@ -184,7 +185,8 @@ envBad = {
         "labelFontSize": 20,
         "labelFontWeight": "bold",
         "tickCount": 6,
-        "grid": false
+        "grid": false,
+        "format": "$,.0f"
       }
     },
     "color": {

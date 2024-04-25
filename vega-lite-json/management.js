@@ -787,6 +787,7 @@ managementGood = {
         "labelFontWeight": "bold",
         "grid": false,
         "tickCount": 6,
+        "format": "$,.0f"
       }
     },
     "color": {
@@ -1012,7 +1013,8 @@ managementBad = {
         "labelFontSize": 20,
         "labelFontWeight": "bold",
         "grid": false,
-        "tickCount": 6
+        "tickCount": 6,
+        "format": "$,.0f"
       }
     },
     "color": {

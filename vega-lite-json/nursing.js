@@ -787,6 +787,7 @@ nursingGood = {
         "labelFontWeight": "bold",
         "grid": false,
         "tickCount": 5,
+        "format": "$,.0f"
       }
     },
     "color": {
@@ -1131,7 +1132,8 @@ nursingBad = {
         "labelFontSize": 20,
         "labelFontWeight": "bold",
         "grid": false,
-        "tickCount": 5
+        "tickCount": 5,
+        "format": "$,.0f"
       }
     },
     "color": {
