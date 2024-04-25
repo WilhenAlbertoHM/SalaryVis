@@ -1,7 +1,6 @@
 :root {
     /* Color variables */
     --sand: #f8ead8;
-    --blue: #00558A;
     --brown: rgb(106, 38, 38);
     --orange: #ee4508;
 }
@@ -40,14 +39,12 @@ body::-webkit-scrollbar-thumb:hover {
     text-align: center;
 }
 
-.csm, .cla, .management, .nursing, .environment, .education {
-    padding: 1em;
-}
-
-.subtitles {
-    color: var(--blue);
-    font-size: 3em;
-    padding-left: 1em;
+.graph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    padding-bottom: 20em;
 }
 
 .info {
@@ -60,18 +57,6 @@ body::-webkit-scrollbar-thumb:hover {
     font-size: 1.5em;
 }
 
-.cla, .csm, .management, .nursing, .environment, .education {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: auto;
-    padding-bottom: 20em;
-}
-
-.cla {
-    padding-bottom: 5em;
-}
-
 .text {
     color: var(--brown);
     font-size: 2em;
@@ -79,35 +64,12 @@ body::-webkit-scrollbar-thumb:hover {
     text-align: center;
 }
 
-#umb-logo {
-    width: 20em;
-    padding: 1em;
-    padding-bottom: 10em;
-    display: block;
-    margin: auto;
-}
-
 #title-desc {
     margin-left: 6em;
     margin-right: 6em;
 }
 
-#csm-graph-good, #cla-graph-good, #management-graph-good, 
-#nursing-graph-good, #environment-graph-good, #education-graph-good,
-#csm-graph-bad, #cla-graph-bad, #management-graph-bad,
-#nursing-graph-bad, #environment-graph-bad, #education-graph-bad {
-    width: 60em;
-    max-width: 100%;
-    height: auto;
-}
-
-#thumbsup, #thumbsdown {
-    width: 8em;
-    padding: 1em;
-
-}
-
-.faculty-vs-coach-link {
+.salaries-and-ratings-link {
     color: var(--brown);
     font-size: 2em;
     padding: 3em;
