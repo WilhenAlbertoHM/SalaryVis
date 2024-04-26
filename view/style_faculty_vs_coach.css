@@ -1,7 +1,7 @@
 :root {
     /* Color variables */
+    --blue: #0745ee;
     --sand: #f8ead8;
-    --brown: rgb(106, 38, 38);
     --orange: #ee4508;
 }
 
@@ -33,7 +33,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .title {
-    color: var(--orange);
+    color: var(--blue);
     font-size: 4em;
     padding: 1em;
     text-align: center;
@@ -44,33 +44,26 @@ body::-webkit-scrollbar-thumb:hover {
     justify-content: center;
     align-items: center;
     overflow: auto;
-    padding-bottom: 20em;
 }
 
 .info {
-    color: white;
-    background-color: var(--brown);
-    margin: 5em 10em 3em;
-    border-radius: 2em;
+    color: var(--blue);
     padding: 2em;
     text-align: center;
     font-size: 1.5em;
+    margin-left: 10em;
+    margin-right: 10em;
 }
 
 .text {
-    color: var(--brown);
-    font-size: 2em;
+    color: var(--orange);
+    font-size: 3em;
     padding: 1em;
     text-align: center;
 }
 
-#title-desc {
-    margin-left: 6em;
-    margin-right: 6em;
-}
-
 .salaries-and-ratings-link {
-    color: var(--brown);
+    color: var(--orange);
     font-size: 2em;
     padding: 3em;
     text-align: center;
